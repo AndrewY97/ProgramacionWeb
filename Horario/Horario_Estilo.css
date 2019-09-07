@@ -1,0 +1,29 @@
+title{
+	text-align: center;
+
+}
+
+table{
+	background-color: #a0d0e4;
+}
+div{
+	font-family: Arial ;
+	text-align: center;
+}
+
+.enca{
+	background-color: #0fadf1;
+}
+
+.des{
+	text-align: center;
+	background-color: #eb5829;
+}
+
+h1{
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+	background-color: #0fadf1;
+}
