@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<script type="text/javascript" src="form2.js"></script>
+	<form>
+		<h1>Consultar CURP</h1>
+		<br>
+		<label>Fecha de Nacimiento(DD/MM/AA):</label>
+		<input type="text" name="caja_dia" id="caja_dia">
+		<input type="text" name="caja_mes" id="caja_mes">
+		<input type="text" name="caja_año" id="caja_año">
+		<br>
+		<br>
+		<br>
+		<label>Nombre Completo(Nombre,Apellido P, Apellido M):</label>
+		<input type="text" name="caja_nom1" id="caja_nom1">
+		<input type="text" name="caja_ape1" id="caja_ape1">
+		<input type="text" name="caja_ape2" id="caja_ape2">
+		<br>
+		<br>
+		<br>
+		<label>Estado de Nacimiento:</label>
+		<input type="text" name="caja_est" id="caja_est">
+		<br>
+		<br>
+		<br>
+		<label>H/M</label>
+		<input type="text" name="caja_sex" id="caja_sex">
+		<br>
+		<br>
+		<br>
+		<input type="button" value="OBTENER CURP", onclick="curp()">
+
+		<h1>Convertir Numeros</h1>
+		<label>Ingresar Numero:</label>
+		<input type="number" name="caja_num" id="caja_num2">
+		<br>
+		<br>
+		<input type="button" value="BINARIO", onclick="binario()">
+		<input type="button" value="OCTAL", onclick="octal()">
+		<input type="button" value="HEXADECIMAL", onclick="hexadecimal()">
+
+		<h1>Cadenas</h1>
+		<label>Ingresar Cadena:</label>
+		<input type="text" name="caja_cad" id="caja_cad">
+		<br>
+		<br>
+		<input type="button" value="NUM.VOCAL", onclick="cadena2()">
+		<input type="button" value="NUM.CONSONANTE", onclick="cadena()">
+		<input type="button" value="CADENA LOCA", onclick="loca()">
+		<br>
+		<br>
+		<label>Ingresar letra:</label>
+		<input type="text" name="caja_let" id="caja_let">
+		<input type="button" value="NUM.LETRA", onclick="busca()">
+	</form>
+	
+	
+
+</body>
+</html>
