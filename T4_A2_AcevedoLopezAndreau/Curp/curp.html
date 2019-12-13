@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CURP</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Obtención de CURP</h1>
+    </div>
+    <form action="datos.php" method="POST">
+        <br>
+        <br>
+        <label for="">Apellido Paterno</label>
+        <input type="text" name="ap" id="ap">
+        <br>
+        <br>
+        <label for="">Apellido Materno</label>
+        <input type="text" name="am" id="am">
+        <br>
+        <br>
+        <label for="">Nombre(s)</label>
+        <input type="text" name="nom" id="nom">
+        <br>
+        <br>
+        <label for="">Sexo</label>
+        <select name="sexo" id="sexo">
+            <option value="H">Masculino</option>
+            <option value="M">Femenino</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Fecha de nacimineto dd/mm/aaaa</label>
+        <select name="dia" id="dia">
+            <option value="01">1</option>
+            <option value="02">2</option>
+            <option value=03>3</option>
+            <option value=04>4</option>
+            <option value="05">5</option>
+            <option value="06">6</option>
+            <option value=07>7</option>
+            <option value="08">8</option>
+            <option value="09">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>  
+        <select name="mes" id="mes">
+            <option value="01">Enero</option>
+            <option value="02">Febrero</option>
+            <option value="03">Marzo</option>
+            <option value="04">Abril</option>
+            <option value="05">Mayo</option>
+            <option value="06">Junio</option>
+            <option value="07">Julio</option>
+            <option value="08">Agosto</option>
+            <option value="09">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>  
+        <input type="text" name="ao" min="1900" max="2019" required pattern="[0-9]{4,4}" title="Ingrese año de nacimiento">
+        <br>
+        <br>
+        <label for="">Estado</label>
+        <select name="estado" id="estado">
+            <option value="AS">Aguascalientes</option>
+            <option value="BC">Baja California</option>
+            <option value="BS">Baja California Sur</option>
+            <option value="CE">Campeche</option>
+            <option value="CS">Chiapas</option>
+            <option value="CA">Chihuahua</option>
+            <option value="CA">Coahuila</option>
+            <option value="CA">Colima</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="DO">Durango</option>
+            <option value="EM">Estado de México</option>
+            <option value="GO">Guanajuato</option>
+            <option value="GO">Guerrero</option>
+            <option value="HO">Hidalgo</option>
+            <option value="JO">Jalisco</option>
+            <option value="MN">Michoacán</option>
+            <option value="MS">Morelos</option>
+            <option value="NT">Nayarit</option>
+            <option value="NL">Nuevo León</option>
+            <option value="OA">Oaxaca</option>
+            <option value="PA">Puebla</option>
+            <option value="QO">Querétaro</option>
+            <option value="QR">Quintana Roo</option>
+            <option value="SL">San Luis Potosí</option>
+            <option value="SA">Sinaloa</option>
+            <option value="SA">Sonora</option>
+            <option value="TO">Tabasco</option>
+            <option value="TS">Tamaulipas</option>
+            <option value="TA">Tlaxcala</option>
+            <option value="VZ">Veracruz</option>
+            <option value="YN">Yucatán</option>
+            <option value="ZS">Zacatecas</option>
+        </select>
+        <input type="submit" value="Obtener">
+    </form>
+</body>
+</html>
